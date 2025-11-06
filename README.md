@@ -1,43 +1,99 @@
-# City-Guide-Website-Project
 
-📌 Project Name: Travel Guide – City Guide Website
-  🖥️ Main Page: index.html
-  👨‍💻 Developed By: ayush_less
+## 🚀 Pages Overview
 
+### Homepage (index.html)
+- Hero section with call-to-action
+- Popular destinations grid
+- Weather information section
+- Services overview
+- Contact information
 
-  🔍 Objective
-  This website is made to show the famous places of Indore, Ujjain, and Bhopal — like Rajwada, Mahakal, Bhojtal, Bharat Bhavan, Chappan Dukan, Kal Bhairav, etc.
+### Contact Page (contact.html)
+- Contact form with validation
+- Company contact details
+- Responsive design
 
+### Services Page (services.html)
+- Comprehensive service listings
+- How it works section
+- Additional travel services
 
-  For each place, you'll get:
-  📸 Photos
-  📖 Short description
-  🎥 YouTube video
-  🗺️ Google Maps link
+### City Pages
+- Individual guides for each city
+- Local attractions
+- Restaurant recommendations
+- Travel tips
 
+## 🛠 Technologies Used
 
-  🔥 Features
+- **HTML5**: Semantic markup
+- **CSS3**: Modern styling with CSS variables
+- **JavaScript**: Interactive functionality
+- **Font Awesome**: Icons
+- **Google Fonts**: Typography
 
-  ✅ Separate page for every city
-  ✅ Fully responsive (looks great on mobile too)
-  ✅ Suggested video section
-  ✅ Contact form (messages directly sent to Gmail)
-  ✅ Easy and smooth navigation
+## 🎨 Design Features
 
+- **CSS Variables**: Easy theme management
+- **Flexbox & Grid**: Modern layout techniques
+- **Smooth Animations**: Enhanced user experience
+- **Mobile-First**: Responsive design approach
+- **Accessibility**: Keyboard navigation and screen reader friendly
 
-  📁 Important Files
+## 📱 Responsive Breakpoints
 
-  index.html → Main homepage
+- **Mobile**: < 768px
+- **Tablet**: 768px - 1024px
+- **Desktop**: > 1024px
 
-  indore.html, ujjain.html, bhopal.html → City-wise pages
+## 🌙 Theme System
 
-  contact.html → Contact form page
+The website supports both light and dark themes with:
+- Automatic theme detection
+- Manual toggle option
+- Persistent user preference
 
-  Plus, individual pages for every famous location
+## 🔧 Installation
 
+1. Clone or download the project files
+2. Open `index.html` in a web browser
+3. No additional setup required - works directly
 
+## 📞 Contact Information
 
-  📬 Contact Us
+- **Email**: kisycoless@gmail.com
 
-  📧 Email: oggyjack0789@gmail.com
-  📱 Mobile Number: XXXXXX6225
+## 🤝 Contributing
+
+1. Fork the project
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a Pull Request
+
+## 🚀 Future Enhancements
+
+- [ ] User authentication system
+- [ ] Booking integration
+- [ ] Interactive maps
+- [ ] User reviews and ratings
+- [ ] Multi-language support
+- [ ] Blog section for travel stories
+
+## 📊 Performance Features
+
+- Optimized images
+- Minimal CSS and JS
+- Fast loading times
+- SEO-friendly structure
+
+## 🌐 Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+---
+
+**Made with ❤️ for travelers exploring amazing destinations**
