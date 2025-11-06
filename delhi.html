@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delhi - Travel Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <!-- Navigation -->
+            <nav class="navbar">
+                <div class="logo">
+                    <i class="fas fa-compass"></i>
+                    Travel Guide
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="nav-desktop">
+                    <div class="search-container">
+                        <input type="text" id="searchInput" placeholder="Search city..." autocomplete="off">
+                        <i class="fas fa-search search-icon"></i>
+                        <div id="searchResults" class="search-results"></div>
+                    </div>
+                    
+                    <ul class="nav-links">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="dropdown-container">
+                            <a href="#" class="nav-link">
+                                Places <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a href="indore.html">Indore</a>
+                                <a href="dewas.html">Dewas</a>
+                                <a href="ujjain.html">Ujjain</a>
+                                <a href="mumbai.html">Mumbai</a>
+                                <a href="delhi.html">Delhi</a>
+                                <a href="bhopal.html">Bhopal</a>
+                            </div>
+                        </li>
+                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                    </ul>
+                </div>
+
+                <!-- Right Side Items -->
+                <div class="nav-right">
+                    <!-- Theme Toggle -->
+                    <div class="theme-toggle">
+                        <button id="themeBtn" class="theme-btn">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- Mobile Menu Button -->
+                    <button class="mobile-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+
+            <!-- Mobile Navigation Menu -->
+            <div class="mobile-nav" id="mobileNav">
+                <div class="mobile-nav-header">
+                    <div class="logo">
+                        <i class="fas fa-compass"></i>
+                        Travel Guide
+                    </div>
+                    <button class="mobile-close-btn" id="mobileCloseBtn">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                
+                <div class="mobile-nav-links">
+                    <a href="index.html" class="mobile-nav-link">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                    
+                    <div class="mobile-dropdown">
+                        <a href="#" class="mobile-nav-link mobile-dropdown-btn">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Places
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="mobile-dropdown-menu">
+                            <a href="indore.html" class="mobile-dropdown-link">Indore</a>
+                            <a href="dewas.html" class="mobile-dropdown-link">Dewas</a>
+                            <a href="ujjain.html" class="mobile-dropdown-link">Ujjain</a>
+                            <a href="mumbai.html" class="mobile-dropdown-link">Mumbai</a>
+                            <a href="delhi.html" class="mobile-dropdown-link">Delhi</a>
+                            <a href="bhopal.html" class="mobile-dropdown-link">Bhopal</a>
+                        </div>
+                    </div>
+                    
+                    <a href="contact.html" class="mobile-nav-link">
+                        <i class="fas fa-envelope"></i>
+                        Contact
+                    </a>
+                    
+                    <a href="services.html" class="mobile-nav-link">
+                        <i class="fas fa-concierge-bell"></i>
+                        Services
+                    </a>
+                </div>
+            </div>
+
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>Welcome to Delhi</h1>
+                    <p>Capital City & Historical Marvel</p>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <!-- City Overview -->
+    <section class="city-overview">
+        <div class="container">
+            <div class="overview-content">
+                <div class="overview-text">
+                    <h2>About Delhi</h2>
+                    <p>Delhi, the capital of India, is a city where ancient history and modern development coexist beautifully. From magnificent Mughal monuments to bustling markets and diplomatic enclaves, Delhi offers a rich tapestry of culture, history, and contemporary urban life.</p>
+                    
+                    <div class="city-stats">
+                        <div class="stat">
+                            <h3>Best Time to Visit</h3>
+                            <p>October to March</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Famous For</h3>
+                            <p>History, Food, Markets</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Language</h3>
+                            <p>Hindi, English, Punjabi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="overview-image">
+                    <img src="https://www.holidify.com/images/cmsuploads/compressed/5621259188_e74d63cb05_b_20180302140149.jpg" alt="Delhi City" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Famous Places -->
+    <section class="places-section">
+        <div class="container">
+            <h2>Famous Places in Delhi</h2>
+            <div class="places-grid">
+                <div class="place-detail-card">
+                    <img src="https://www.holidify.com/images/cmsuploads/compressed/attr_1122_20190228145747.jpg" alt="India Gate" loading="lazy">
+                    <div class="place-info">
+                        <h3>India Gate</h3>
+                        <p>Iconic war memorial dedicated to Indian soldiers who died in World War I. Beautifully lit in evenings and surrounded by lush lawns.</p>
+                        <div class="place-meta">
+                            <span><i class="fas fa-clock"></i> Open 24 Hours</span>
+                            <span><i class="fas fa-rupee-sign"></i> Free Entry</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('India Gate, Delhi')">
+                            <i class="fas fa-map-marker-alt"></i> Get Directions
+                        </button>
+                    </div>
+                </div>
+
+                <div class="place-detail-card">
+                    <img src="https://www.holidify.com/images/cmsuploads/compressed/594_20200523154721.jpg" alt="Red Fort" loading="lazy">
+                    <div class="place-info">
+                        <h3>Red Fort</h3>
+                        <p>Historic fort built by Mughal Emperor Shah Jahan in 1639. UNESCO World Heritage Site and venue for Independence Day celebrations.</p>
+                        <div class="place-meta">
+                            <span><i class="fas fa-clock"></i> 9:30AM - 4:30PM</span>
+                            <span><i class="fas fa-rupee-sign"></i> ₹35 Indians</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Red Fort, Delhi')">
+                            <i class="fas fa-map-marker-alt"></i> Get Directions
+                        </button>
+                    </div>
+                </div>
+
+                <div class="place-detail-card">
+                    <img src="https://www.holidify.com/images/cmsuploads/compressed/Qutub_Minar_in_the_monsoons_20170911195158.jpg" alt="Qutub Minar" loading="lazy">
+                    <div class="place-info">
+                        <h3>Qutub Minar</h3>
+                        <p>Tallest brick minaret in the world, built in 1193. UNESCO World Heritage Site with intricate carvings and surrounding historical complex.</p>
+                        <div class="place-meta">
+                            <span><i class="fas fa-clock"></i> 7AM - 5PM</span>
+                            <span><i class="fas fa-rupee-sign"></i> ₹35 Indians</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Qutub Minar, Delhi')">
+                            <i class="fas fa-map-marker-alt"></i> Get Directions
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restaurants Section -->
+    <section class="restaurants-section">
+        <div class="container">
+            <h2>Popular Restaurants in Delhi</h2>
+            <div class="restaurants-grid">
+                <div class="restaurant-card">
+                    <img src="https://b.zmtcdn.com/data/pictures/1/20561721/9e7e2758d84a0b1d7e3c6c5a8f44c7c9.jpg" alt="Karim's" loading="lazy">
+                    <div class="restaurant-info">
+                        <h3>Karim's</h3>
+                        <p>Legendary restaurant near Jama Masjid, famous for its Mughlai cuisine since 1913. Must try: Mutton Burra and Kebabs.</p>
+                        <div class="restaurant-meta">
+                            <span><i class="fas fa-clock"></i> 9AM - 12:30AM</span>
+                            <span><i class="fas fa-rupee-sign"></i> ₹800 for two</span>
+                        </div>
+                        <div class="cuisine-tags">
+                            <span class="tag">Mughlai</span>
+                            <span class="tag">Non-Veg</span>
+                            <span class="tag">Historic</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Karims Restaurant, Delhi')">
+                            <i class="fas fa-map-marker-alt"></i> Directions
+                        </button>
+                    </div>
+                </div>
+
+                <div class="restaurant-card">
+                    <img src="https://b.zmtcdn.com/data/pictures/2/20561722/1e5f43d6d4a8b0e1d7e3c6c5a8f44c7c9.jpg" alt="Bukhara" loading="lazy">
+                    <div class="restaurant-info">
+                        <h3>Bukhara</h3>
+                        <p>World-renowned restaurant in ITC Maurya, famous for its North-West Frontier cuisine and signature Dal Bukhara.</p>
+                        <div class="restaurant-meta">
+                            <span><i class="fas fa-clock"></i> 12:30PM - 2:45PM, 7PM-11:45PM</span>
+                            <span><i class="fas fa-rupee-sign"></i> ₹4000 for two</span>
+                        </div>
+                        <div class="cuisine-tags">
+                            <span class="tag">North Indian</span>
+                            <span class="tag">Fine Dining</span>
+                            <span class="tag">Luxury</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Bukhara, ITC Maurya, Delhi')">
+                            <i class="fas fa-map-marker-alt"></i> Directions
+                        </button>
+                    </div>
+                </div>
+
+                <div class="restaurant-card">
+                    <img src="https://b.zmtcdn.com/data/pictures/3/20561723/3c0e3a5a4e6a8c9e8e9a7b6c5d4e3f2a.jpg" alt="Sagar Ratna" loading="lazy">
+                    <div class="restaurant-info">
+                        <h3>Sagar Ratna</h3>
+                        <p>Popular chain serving authentic South Indian vegetarian food. Known for its crispy dosas, fluffy idlis, and filter coffee.</p>
+                        <div class="restaurant-meta">
+                            <span><i class="fas fa-clock"></i> 8AM - 11PM</span>
+                            <span><i class="fas fa-rupee-sign"></i> ₹500 for two</span>
+                        </div>
+                        <div class="cuisine-tags">
+                            <span class="tag">South Indian</span>
+                            <span class="tag">Vegetarian</span>
+                            <span class="tag">Breakfast</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Sagar Ratna, Delhi')">
+                            <i class="fas fa-map-marker-alt"></i> Directions
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Tips -->
+    <section class="tips-section">
+        <div class="container">
+            <h2>Travel Tips for Delhi</h2>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <i class="fas fa-metro"></i>
+                    <h3>Metro Travel</h3>
+                    <p>Use Delhi Metro for convenient and affordable travel across the city. Get a smart card for discounted fares and easy access.</p>
+                </div>
+                <div class="tip-card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Street Food</h3>
+                    <p>Try Delhi's famous street food like chole bhature, parathas, and chaat. Visit Chandni Chowk for authentic local flavors.</p>
+                </div>
+                <div class="tip-card">
+                    <i class="fas fa-monument"></i>
+                    <h3>Monument Visits</h3>
+                    <p>Visit historical monuments early morning to avoid crowds and heat. Carry water and wear comfortable walking shoes.</p>
+                </div>
+                <div class="tip-card">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h3>Shopping</h3>
+                    <p>Explore markets like Dilli Haat, Janpath, and Sarojini Nagar for handicrafts, clothes, and souvenirs at reasonable prices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Weather Info -->
+    <section class="weather-section">
+        <div class="container">
+            <h2>Weather Information</h2>
+            <div class="weather-cards">
+                <div class="weather-card">
+                    <i class="fas fa-sun"></i>
+                    <h3>Winter</h3>
+                    <p>Nov - Feb</p>
+                    <span>Cold & Foggy (5°C - 20°C)</span>
+                </div>
+                <div class="weather-card">
+                    <i class="fas fa-cloud-rain"></i>
+                    <h3>Monsoon</h3>
+                    <p>Jul - Sep</p>
+                    <span>Humid with Rain (25°C - 35°C)</span>
+                </div>
+                <div class="weather-card">
+                    <i class="fas fa-temperature-high"></i>
+                    <h3>Summer</h3>
+                    <p>Mar - Jun</p>
+                    <span>Hot & Dry (25°C - 45°C)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button id="topBtn" class="top-btn">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Travel Guide. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#" onclick="shareWebsite()"><i class="fas fa-share-alt"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        function openMap(placeName) {
+            const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(placeName)}`;
+            window.open(mapsUrl, '_blank');
+        }
+        
+        function shareWebsite() {
+            const websiteUrl = window.location.href;
+            if (navigator.share) {
+                navigator.share({
+                    title: 'Delhi - Travel Guide',
+                    text: 'Explore the historical capital city of Delhi',
+                    url: websiteUrl
+                });
+            } else {
+                prompt('Share this page:', websiteUrl);
+            }
+        }
+    </script>
+</body>
+</html>

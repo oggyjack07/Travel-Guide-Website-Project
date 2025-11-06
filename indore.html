@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indore - Travel Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <!-- Navigation -->
+            <nav class="navbar">
+                <div class="logo">
+                    <i class="fas fa-compass"></i>
+                    Travel Guide
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="nav-desktop">
+                    <div class="search-container">
+                        <input type="text" id="searchInput" placeholder="Search city..." autocomplete="off">
+                        <i class="fas fa-search search-icon"></i>
+                        <div id="searchResults" class="search-results"></div>
+                    </div>
+                    
+                    <ul class="nav-links">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="dropdown-container">
+                            <a href="#" class="nav-link">
+                                Places <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a href="indore.html">Indore</a>
+                                <a href="dewas.html">Dewas</a>
+                                <a href="ujjain.html">Ujjain</a>
+                                <a href="mumbai.html">Mumbai</a>
+                                <a href="delhi.html">Delhi</a>
+                                <a href="bhopal.html">Bhopal</a>
+                            </div>
+                        </li>
+                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                    </ul>
+                </div>
+
+                <!-- Right Side Items -->
+                <div class="nav-right">
+                    <!-- Theme Toggle -->
+                    <div class="theme-toggle">
+                        <button id="themeBtn" class="theme-btn">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- Mobile Menu Button -->
+                    <button class="mobile-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+
+            <!-- Mobile Navigation Menu -->
+            <div class="mobile-nav" id="mobileNav">
+                <div class="mobile-nav-header">
+                    <div class="logo">
+                        <i class="fas fa-compass"></i>
+                        Travel Guide
+                    </div>
+                    <button class="mobile-close-btn" id="mobileCloseBtn">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                
+                <div class="mobile-nav-links">
+                    <a href="index.html" class="mobile-nav-link">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                    
+                    <div class="mobile-dropdown">
+                        <a href="#" class="mobile-nav-link mobile-dropdown-btn">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Places
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="mobile-dropdown-menu">
+                            <a href="indore.html" class="mobile-dropdown-link">Indore</a>
+                            <a href="dewas.html" class="mobile-dropdown-link">Dewas</a>
+                            <a href="ujjain.html" class="mobile-dropdown-link">Ujjain</a>
+                            <a href="mumbai.html" class="mobile-dropdown-link">Mumbai</a>
+                            <a href="delhi.html" class="mobile-dropdown-link">Delhi</a>
+                            <a href="bhopal.html" class="mobile-dropdown-link">Bhopal</a>
+                        </div>
+                    </div>
+                    
+                    <a href="contact.html" class="mobile-nav-link">
+                        <i class="fas fa-envelope"></i>
+                        Contact
+                    </a>
+                    
+                    <a href="services.html" class="mobile-nav-link">
+                        <i class="fas fa-concierge-bell"></i>
+                        Services
+                    </a>
+                </div>
+            </div>
+
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>Welcome to Indore</h1>
+                    <p>India's Cleanest City & Food Capital</p>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <!-- City Overview -->
+    <section class="city-overview">
+        <div class="container">
+            <div class="overview-content">
+                <div class="overview-text">
+                    <h2>About Indore</h2>
+                    <p>Indore, the largest city in Madhya Pradesh, is famous for its delicious street food, vibrant markets, and rich cultural heritage. Known as India's cleanest city, it offers a perfect blend of modernity and tradition with historical palaces, bustling markets, and amazing culinary experiences.</p>
+                    
+                    <div class="city-stats">
+                        <div class="stat">
+                            <h3>Best Time to Visit</h3>
+                            <p>October to March</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Famous For</h3>
+                            <p>Street Food, Shopping</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Language</h3>
+                            <p>Hindi, Malwi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="overview-image">
+                    <img src="https://www.holidify.com/images/cmsuploads/compressed/3551_20190228103219.jpg" alt="Indore City" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Famous Places -->
+    <section class="places-section">
+        <div class="container">
+            <h2>Famous Places in Indore</h2>
+            <div class="places-grid">
+                <div class="place-detail-card">
+                    <img src="https://cdn1.tripoto.com/media/filter/nl/img/2380291/Image/1699450355_1_cxey9yezk3ya_1hycjqqoq.jpg.webp" alt="Rajwada Palace" loading="lazy">
+                    <div class="place-info">
+                        <h3>Rajwada Palace</h3>
+                        <p>Historic palace of the Holkar dynasty, showcasing Maratha architecture with seven stories structure built in the 18th century.</p>
+                        <div class="place-meta">
+                            <span><i class="fas fa-clock"></i> 9AM - 5PM</span>
+                            <span><i class="fas fa-rupee-sign"></i> ₹25 Entry</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Rajwada Palace, Indore')">
+                            <i class="fas fa-map-marker-alt"></i> Get Directions
+                        </button>
+                    </div>
+                </div>
+
+                <div class="place-detail-card">
+                    <img src="https://wanderon-images.gumlet.io/gallery/new/2025/10/08/1759861886127-history-of-sarafa-bazaar-indore.jpeg" alt="Sarafa Bazaar" loading="lazy">
+                    <div class="place-info">
+                        <h3>Sarafa Bazaar</h3>
+                        <p>Famous jewelry market by day that transforms into a street food paradise at night with numerous food stalls.</p>
+                        <div class="place-meta">
+                            <span><i class="fas fa-clock"></i> 6PM - 2AM</span>
+                            <span><i class="fas fa-rupee-sign"></i> Free Entry</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Sarafa Bazaar, Indore')">
+                            <i class="fas fa-map-marker-alt"></i> Get Directions
+                        </button>
+                    </div>
+                </div>
+
+                <div class="place-detail-card">
+                    <img src="https://maahishmati.com/cdn/shop/articles/Maahishmati_Sarees_Blog_Post_on_Lal_Bagh_Palace_Indore_2025_5_1_190b8bec-eeef-49fd-baa9-98b625a9f503.jpg?v=1738751763" alt="Lal Bagh Palace" loading="lazy">
+                    <div class="place-info">
+                        <h3>Lal Bagh Palace</h3>
+                        <p>Grand palace spread over 28 acres, featuring European architecture and antique collections from the Holkar era.</p>
+                        <div class="place-meta">
+                            <span><i class="fas fa-clock"></i> 10AM - 5PM</span>
+                            <span><i class="fas fa-rupee-sign"></i> ₹50 Entry</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Lal Bagh Palace, Indore')">
+                            <i class="fas fa-map-marker-alt"></i> Get Directions
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restaurants Section -->
+    <section class="restaurants-section">
+        <div class="container">
+            <h2>Popular Restaurants in Indore</h2>
+            <div class="restaurants-grid">
+                <div class="restaurant-card">
+                    <img src="https://wanderon-images.gumlet.io/blogs/new/2024/04/the-best-time-to-visit-chappan-dukan-scaled.jpg" alt="Chappan Dukan" loading="lazy">
+                    <div class="restaurant-info">
+                        <h3>Chappan Dukan</h3>
+                        <p>Famous street food lane with 56 shops offering variety of snacks, chaat, and sweets. Must try: Poha, Jalebi, Kachori</p>
+                        <div class="restaurant-meta">
+                            <span><i class="fas fa-clock"></i> 8AM - 11PM</span>
+                            <span><i class="fas fa-rupee-sign"></i> ₹200 for two</span>
+                        </div>
+                        <div class="cuisine-tags">
+                            <span class="tag">Street Food</span>
+                            <span class="tag">Vegetarian</span>
+                            <span class="tag">Sweets</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Chappan Dukan, Indore')">
+                            <i class="fas fa-map-marker-alt"></i> Directions
+                        </button>
+                    </div>
+                </div>
+
+                <div class="restaurant-card">
+                    <img src="https://www.mappls.com/place/R5F7ZD_1650946587005_0.jpeg" alt="Vijay Chaat House" loading="lazy">
+                    <div class="restaurant-info">
+                        <h3>Vijay Chaat House</h3>
+                        <p>Legendary chaat place famous for its samosas, poha, and other Indori snacks. Known for authentic local flavors.</p>
+                        <div class="restaurant-meta">
+                            <span><i class="fas fa-clock"></i> 7AM - 11PM</span>
+                            <span><i class="fas fa-rupee-sign"></i> ₹150 for two</span>
+                        </div>
+                        <div class="cuisine-tags">
+                            <span class="tag">Chaat</span>
+                            <span class="tag">Breakfast</span>
+                            <span class="tag">Snacks</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Vijay Chaat House, Indore')">
+                            <i class="fas fa-map-marker-alt"></i> Directions
+                        </button>
+                    </div>
+                </div>
+
+                <div class="restaurant-card">
+                    <img src="https://b.zmtcdn.com/data/reviews_photos/0d4/b32d68f081c39449f516a0d7feba80d4_1574665227.jpg" alt="Johny Hot Dog" loading="lazy">
+                    <div class="restaurant-info">
+                        <h3>Johny Hot Dog</h3>
+                        <p>Famous for unique Indian-style hot dogs and fast food. A popular spot among youngsters and families.</p>
+                        <div class="restaurant-meta">
+                            <span><i class="fas fa-clock"></i> 11AM - 11PM</span>
+                            <span><i class="fas fa-rupee-sign"></i> ₹250 for two</span>
+                        </div>
+                        <div class="cuisine-tags">
+                            <span class="tag">Fast Food</span>
+                            <span class="tag">Non-Veg</span>
+                            <span class="tag">Snacks</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Johny Hot Dog, Indore')">
+                            <i class="fas fa-map-marker-alt"></i> Directions
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Tips -->
+    <section class="tips-section">
+        <div class="container">
+            <h2>Travel Tips for Indore</h2>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Food Experience</h3>
+                    <p>Don't miss Sarafa Bazaar at night for amazing street food. Try Poha-Jalebi for breakfast and Bhutte ka kees as local specialty.</p>
+                </div>
+                <div class="tip-card">
+                    <i class="fas fa-shopping-bag"></i>
+                    <h3>Shopping</h3>
+                    <p>Visit Sitlamata Bazaar for traditional textiles, Sarafa for jewelry, and Malwa Mill for cotton fabrics.</p>
+                </div>
+                <div class="tip-card">
+                    <i class="fas fa-car"></i>
+                    <h3>Transport</h3>
+                    <p>Auto-rickshaws are convenient for short distances. Use app-based taxis for longer routes. City buses available for budget travel.</p>
+                </div>
+                <div class="tip-card">
+                    <i class="fas fa-calendar"></i>
+                    <h3>Best Time</h3>
+                    <p>October to March for pleasant weather. Avoid summer afternoons. Monsoon brings greenery but occasional showers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Weather Info -->
+    <section class="weather-section">
+        <div class="container">
+            <h2>Weather Information</h2>
+            <div class="weather-cards">
+                <div class="weather-card">
+                    <i class="fas fa-sun"></i>
+                    <h3>Summer</h3>
+                    <p>Mar - Jun</p>
+                    <span>Hot & Dry (25°C - 40°C)</span>
+                </div>
+                <div class="weather-card">
+                    <i class="fas fa-cloud-rain"></i>
+                    <h3>Monsoon</h3>
+                    <p>Jul - Sep</p>
+                    <span>Moderate Rain (22°C - 32°C)</span>
+                </div>
+                <div class="weather-card">
+                    <i class="fas fa-snowflake"></i>
+                    <h3>Winter</h3>
+                    <p>Oct - Feb</p>
+                    <span>Pleasant & Cool (10°C - 25°C)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button id="topBtn" class="top-btn">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Travel Guide. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#" onclick="shareWebsite()"><i class="fas fa-share-alt"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        function openMap(placeName) {
+            const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(placeName)}`;
+            window.open(mapsUrl, '_blank');
+        }
+        
+        function shareWebsite() {
+            const websiteUrl = window.location.href;
+            if (navigator.share) {
+                navigator.share({
+                    title: 'Indore - Travel Guide',
+                    text: 'Explore amazing places in Indore',
+                    url: websiteUrl
+                });
+            } else {
+                prompt('Share this page:', websiteUrl);
+            }
+        }
+    </script>
+</body>
+</html>

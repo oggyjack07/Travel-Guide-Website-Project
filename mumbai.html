@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mumbai - Travel Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <!-- Navigation -->
+            <nav class="navbar">
+                <div class="logo">
+                    <i class="fas fa-compass"></i>
+                    Travel Guide
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="nav-desktop">
+                    <div class="search-container">
+                        <input type="text" id="searchInput" placeholder="Search city..." autocomplete="off">
+                        <i class="fas fa-search search-icon"></i>
+                        <div id="searchResults" class="search-results"></div>
+                    </div>
+                    
+                    <ul class="nav-links">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="dropdown-container">
+                            <a href="#" class="nav-link">
+                                Places <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a href="indore.html">Indore</a>
+                                <a href="dewas.html">Dewas</a>
+                                <a href="ujjain.html">Ujjain</a>
+                                <a href="mumbai.html">Mumbai</a>
+                                <a href="delhi.html">Delhi</a>
+                                <a href="bhopal.html">Bhopal</a>
+                            </div>
+                        </li>
+                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                    </ul>
+                </div>
+
+                <!-- Right Side Items -->
+                <div class="nav-right">
+                    <!-- Theme Toggle -->
+                    <div class="theme-toggle">
+                        <button id="themeBtn" class="theme-btn">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- Mobile Menu Button -->
+                    <button class="mobile-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+
+            <!-- Mobile Navigation Menu -->
+            <div class="mobile-nav" id="mobileNav">
+                <div class="mobile-nav-header">
+                    <div class="logo">
+                        <i class="fas fa-compass"></i>
+                        Travel Guide
+                    </div>
+                    <button class="mobile-close-btn" id="mobileCloseBtn">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                
+                <div class="mobile-nav-links">
+                    <a href="index.html" class="mobile-nav-link">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                    
+                    <div class="mobile-dropdown">
+                        <a href="#" class="mobile-nav-link mobile-dropdown-btn">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Places
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="mobile-dropdown-menu">
+                            <a href="indore.html" class="mobile-dropdown-link">Indore</a>
+                            <a href="dewas.html" class="mobile-dropdown-link">Dewas</a>
+                            <a href="ujjain.html" class="mobile-dropdown-link">Ujjain</a>
+                            <a href="mumbai.html" class="mobile-dropdown-link">Mumbai</a>
+                            <a href="delhi.html" class="mobile-dropdown-link">Delhi</a>
+                            <a href="bhopal.html" class="mobile-dropdown-link">Bhopal</a>
+                        </div>
+                    </div>
+                    
+                    <a href="contact.html" class="mobile-nav-link">
+                        <i class="fas fa-envelope"></i>
+                        Contact
+                    </a>
+                    
+                    <a href="services.html" class="mobile-nav-link">
+                        <i class="fas fa-concierge-bell"></i>
+                        Services
+                    </a>
+                </div>
+            </div>
+
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>Welcome to Mumbai</h1>
+                    <p>City of Dreams & Maximum City</p>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <!-- City Overview -->
+    <section class="city-overview">
+        <div class="container">
+            <div class="overview-content">
+                <div class="overview-text">
+                    <h2>About Mumbai</h2>
+                    <p>Mumbai, the financial capital of India, is a vibrant metropolis known for its bustling city life, Bollywood film industry, and historical landmarks. From the iconic Gateway of India to the beautiful Marine Drive, Mumbai offers a perfect blend of colonial heritage and modern development.</p>
+                    
+                    <div class="city-stats">
+                        <div class="stat">
+                            <h3>Best Time to Visit</h3>
+                            <p>November to February</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Famous For</h3>
+                            <p>Bollywood, Beaches</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Language</h3>
+                            <p>Marathi, Hindi, English</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="overview-image">
+                    <img src="https://akm-img-a-in.tosshub.com/lingo/images/story/media_bank/202312/657bdd60d1fdd-taj-mumbai-150015589-16x9.png" alt="Mumbai City" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Famous Places -->
+    <section class="places-section">
+        <div class="container">
+            <h2>Famous Places in Mumbai</h2>
+            <div class="places-grid">
+                <div class="place-detail-card">
+                    <img src="https://akm-img-a-in.tosshub.com/lingo/images/story/media_bank/202312/657bdd60d1fdd-taj-mumbai-150015589-16x9.png" alt="Taj Hotel" loading="lazy">
+                    <div class="place-info">
+                        <h3>Taj Mahal Palace Hotel</h3>
+                        <p>Iconic luxury hotel overlooking the Gateway of India, known for its stunning architecture and rich history dating back to 1903.</p>
+                        <div class="place-meta">
+                            <span><i class="fas fa-clock"></i> Open 24 Hours</span>
+                            <span><i class="fas fa-rupee-sign"></i> Luxury Stay</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Taj Mahal Palace Hotel, Mumbai')">
+                            <i class="fas fa-map-marker-alt"></i> Get Directions
+                        </button>
+                    </div>
+                </div>
+
+                <div class="place-detail-card">
+                    <img src="https://images.wanderon.in/blogs/new/2024/04/marine-drive-2.jpg" alt="Marine Drive" loading="lazy">
+                    <div class="place-info">
+                        <h3>Marine Drive</h3>
+                        <p>Beautiful 3.6 km long boulevard along the coast, famously known as the Queen's Necklace due to its curved shape and street lights.</p>
+                        <div class="place-meta">
+                            <span><i class="fas fa-clock"></i> Open 24 Hours</span>
+                            <span><i class="fas fa-rupee-sign"></i> Free Entry</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Marine Drive, Mumbai')">
+                            <i class="fas fa-map-marker-alt"></i> Get Directions
+                        </button>
+                    </div>
+                </div>
+
+                <div class="place-detail-card">
+                    <img src="https://media2.thrillophilia.com/images/photos/000/040/923/original/1556284488_shutterstock_214982728.jpg?w=753&h=450&dpr=1.5" alt="Gateway of India" loading="lazy">
+                    <div class="place-info">
+                        <h3>Gateway of India</h3>
+                        <p>Historic monument built in 1924, standing at 26 meters tall. It's Mumbai's most famous landmark and a popular tourist attraction.</p>
+                        <div class="place-meta">
+                            <span><i class="fas fa-clock"></i> Open 24 Hours</span>
+                            <span><i class="fas fa-rupee-sign"></i> Free Entry</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Gateway of India, Mumbai')">
+                            <i class="fas fa-map-marker-alt"></i> Get Directions
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restaurants Section -->
+    <section class="restaurants-section">
+        <div class="container">
+            <h2>Popular Restaurants in Mumbai</h2>
+            <div class="restaurants-grid">
+                <div class="restaurant-card">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/fc/74/30/bade-miya.jpg?w=900&h=500&s=1" alt="Bademiya" loading="lazy">
+                    <div class="restaurant-info">
+                        <h3>Bademiya</h3>
+                        <p>Legendary street food joint famous for its Mughlai cuisine, especially kebabs and rolls. A must-visit for food lovers in Colaba.</p>
+                        <div class="restaurant-meta">
+                            <span><i class="fas fa-clock"></i> 7PM - 3AM</span>
+                            <span><i class="fas fa-rupee-sign"></i> ₹500 for two</span>
+                        </div>
+                        <div class="cuisine-tags">
+                            <span class="tag">Mughlai</span>
+                            <span class="tag">Non-Veg</span>
+                            <span class="tag">Street Food</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Bademiya, Colaba, Mumbai')">
+                            <i class="fas fa-map-marker-alt"></i> Directions
+                        </button>
+                    </div>
+                </div>
+
+                <div class="restaurant-card">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipPtko1oJya_Dt2gq8x3yJ5ncfctH5mAg7tHlypi=w125-h125-n-k-no" alt="The Bombay Canteen" loading="lazy">
+                    <div class="restaurant-info">
+                        <h3>The Bombay Canteen</h3>
+                        <p>Trendy restaurant offering modern Indian cuisine with a creative twist. Known for its innovative dishes and vibrant atmosphere.</p>
+                        <div class="restaurant-meta">
+                            <span><i class="fas fa-clock"></i> 12PM - 1AM</span>
+                            <span><i class="fas fa-rupee-sign"></i> ₹2000 for two</span>
+                        </div>
+                        <div class="cuisine-tags">
+                            <span class="tag">Modern Indian</span>
+                            <span class="tag">Fine Dining</span>
+                            <span class="tag">Creative</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('The Bombay Canteen, Mumbai')">
+                            <i class="fas fa-map-marker-alt"></i> Directions
+                        </button>
+                    </div>
+                </div>
+
+                <div class="restaurant-card">
+                    <img src="https://content.jdmagicbox.com/v2/comp/mumbai/l6/022pxx22.xx22.221018101631.f2l6/catalogue/trishna-fort-mumbai-restaurants-rkenxgh4e7.jpg" alt="Trishna" loading="lazy">
+                    <div class="restaurant-info">
+                        <h3>Trishna</h3>
+                        <p>Renowned seafood restaurant famous for its butter garlic crab and coastal cuisine. A favorite among celebrities and food connoisseurs.</p>
+                        <div class="restaurant-meta">
+                            <span><i class="fas fa-clock"></i> 12PM - 12AM</span>
+                            <span><i class="fas fa-rupee-sign"></i> ₹2500 for two</span>
+                        </div>
+                        <div class="cuisine-tags">
+                            <span class="tag">Seafood</span>
+                            <span class="tag">Coastal</span>
+                            <span class="tag">Fine Dining</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Trishna Restaurant, Fort, Mumbai')">
+                            <i class="fas fa-map-marker-alt"></i> Directions
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Tips -->
+    <section class="tips-section">
+        <div class="container">
+            <h2>Travel Tips for Mumbai</h2>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <i class="fas fa-train"></i>
+                    <h3>Local Transport</h3>
+                    <p>Use local trains for quick travel between suburbs. Auto-rickshaws and taxis are easily available. Download transport apps for convenience.</p>
+                </div>
+                <div class="tip-card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Street Food</h3>
+                    <p>Don't miss Mumbai's famous street food like vada pav, pav bhaji, and bhel puri. Try them at popular joints for authentic taste.</p>
+                </div>
+                <div class="tip-card">
+                    <i class="fas fa-sun"></i>
+                    <h3>Weather</h3>
+                    <p>Carry umbrella during monsoon (June-September). Winters are pleasant, summers can be humid. Light cotton clothes recommended.</p>
+                </div>
+                <div class="tip-card">
+                    <i class="fas fa-landmark"></i>
+                    <h3>Sightseeing</h3>
+                    <p>Visit Gateway of India, Marine Drive, and Colaba Causeway. Explore South Mumbai for historical buildings and architecture.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Weather Info -->
+    <section class="weather-section">
+        <div class="container">
+            <h2>Weather Information</h2>
+            <div class="weather-cards">
+                <div class="weather-card">
+                    <i class="fas fa-sun"></i>
+                    <h3>Winter</h3>
+                    <p>Nov - Feb</p>
+                    <span>Pleasant & Cool (18°C - 30°C)</span>
+                </div>
+                <div class="weather-card">
+                    <i class="fas fa-cloud-rain"></i>
+                    <h3>Monsoon</h3>
+                    <p>Jun - Sep</p>
+                    <span>Heavy Rain (25°C - 32°C)</span>
+                </div>
+                <div class="weather-card">
+                    <i class="fas fa-temperature-high"></i>
+                    <h3>Summer</h3>
+                    <p>Mar - May</p>
+                    <span>Hot & Humid (25°C - 35°C)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button id="topBtn" class="top-btn">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Travel Guide. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#" onclick="shareWebsite()"><i class="fas fa-share-alt"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        function openMap(placeName) {
+            const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(placeName)}`;
+            window.open(mapsUrl, '_blank');
+        }
+        
+        function shareWebsite() {
+            const websiteUrl = window.location.href;
+            if (navigator.share) {
+                navigator.share({
+                    title: 'Mumbai - Travel Guide',
+                    text: 'Explore the amazing city of Mumbai',
+                    url: websiteUrl
+                });
+            } else {
+                prompt('Share this page:', websiteUrl);
+            }
+        }
+    </script>
+</body>
+</html>

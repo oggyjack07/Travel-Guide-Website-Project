@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujjain - Travel Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <!-- Navigation -->
+            <nav class="navbar">
+                <div class="logo">
+                    <i class="fas fa-compass"></i>
+                    Travel Guide
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="nav-desktop">
+                    <div class="search-container">
+                        <input type="text" id="searchInput" placeholder="Search city..." autocomplete="off">
+                        <i class="fas fa-search search-icon"></i>
+                        <div id="searchResults" class="search-results"></div>
+                    </div>
+                    
+                    <ul class="nav-links">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="dropdown-container">
+                            <a href="#" class="nav-link">
+                                Places <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a href="indore.html">Indore</a>
+                                <a href="dewas.html">Dewas</a>
+                                <a href="ujjain.html">Ujjain</a>
+                                <a href="mumbai.html">Mumbai</a>
+                                <a href="delhi.html">Delhi</a>
+                                <a href="bhopal.html">Bhopal</a>
+                            </div>
+                        </li>
+                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                    </ul>
+                </div>
+
+                <!-- Right Side Items -->
+                <div class="nav-right">
+                    <!-- Theme Toggle -->
+                    <div class="theme-toggle">
+                        <button id="themeBtn" class="theme-btn">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- Mobile Menu Button -->
+                    <button class="mobile-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+
+            <!-- Mobile Navigation Menu -->
+            <div class="mobile-nav" id="mobileNav">
+                <div class="mobile-nav-header">
+                    <div class="logo">
+                        <i class="fas fa-compass"></i>
+                        Travel Guide
+                    </div>
+                    <button class="mobile-close-btn" id="mobileCloseBtn">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                
+                <div class="mobile-nav-links">
+                    <a href="index.html" class="mobile-nav-link">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                    
+                    <div class="mobile-dropdown">
+                        <a href="#" class="mobile-nav-link mobile-dropdown-btn">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Places
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="mobile-dropdown-menu">
+                            <a href="indore.html" class="mobile-dropdown-link">Indore</a>
+                            <a href="dewas.html" class="mobile-dropdown-link">Dewas</a>
+                            <a href="ujjain.html" class="mobile-dropdown-link">Ujjain</a>
+                            <a href="mumbai.html" class="mobile-dropdown-link">Mumbai</a>
+                            <a href="delhi.html" class="mobile-dropdown-link">Delhi</a>
+                            <a href="bhopal.html" class="mobile-dropdown-link">Bhopal</a>
+                        </div>
+                    </div>
+                    
+                    <a href="contact.html" class="mobile-nav-link">
+                        <i class="fas fa-envelope"></i>
+                        Contact
+                    </a>
+                    
+                    <a href="services.html" class="mobile-nav-link">
+                        <i class="fas fa-concierge-bell"></i>
+                        Services
+                    </a>
+                </div>
+            </div>
+
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>Welcome to Ujjain</h1>
+                    <p>Spiritual City on the Banks of Shipra River</p>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <!-- City Overview -->
+    <section class="city-overview">
+        <div class="container">
+            <div class="overview-content">
+                <div class="overview-text">
+                    <h2>About Ujjain</h2>
+                    <p>Ujjain, one of the seven sacred cities of Hinduism, is famous for the Mahakaleshwar Jyotirlinga temple. Located on the banks of Shipra River, it's a major pilgrimage site and hosts the Simhastha Kumbh Mela every 12 years. The city has rich historical significance dating back to ancient times and is mentioned in various Hindu scriptures.</p>
+                    
+                    <div class="city-stats">
+                        <div class="stat">
+                            <h3>Best Time to Visit</h3>
+                            <p>October to March</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Famous For</h3>
+                            <p>Spirituality, Temples</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Language</h3>
+                            <p>Hindi, Malwi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="overview-image">
+                    <img src="https://static.toiimg.com/photo/94055833.cms" alt="Ujjain City" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Famous Places -->
+    <section class="places-section">
+        <div class="container">
+            <h2>Famous Places in Ujjain</h2>
+            <div class="places-grid">
+                <div class="place-detail-card">
+                    <img src="https://www.mptourism.com/web/image/catalog/Blog%20Image/Mahakal-ujjain1.jpg" alt="Mahakaleshwar Temple" loading="lazy">
+                    <div class="place-info">
+                        <h3>Mahakaleshwar Temple</h3>
+                        <p>One of the 12 Jyotirlingas, famous for its Bhasma Aarti performed early morning. The temple is dedicated to Lord Shiva and attracts millions of devotees annually.</p>
+                        <div class="place-meta">
+                            <span><i class="fas fa-clock"></i> 4AM - 11PM</span>
+                            <span><i class="fas fa-rupee-sign"></i> Free Entry</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Mahakaleshwar Temple, Ujjain')">
+                            <i class="fas fa-map-marker-alt"></i> Get Directions
+                        </button>
+                    </div>
+                </div>
+
+                <div class="place-detail-card">
+                    <img src="https://seawatersports.com/images/places/shri-ram-ghat.png" alt="Ram Ghat" loading="lazy">
+                    <div class="place-info">
+                        <h3>Ram Ghat</h3>
+                        <p>Sacred bathing ghat on Shipra River, especially crowded during Kumbh Mela. Pilgrims take holy dips here believing it washes away their sins.</p>
+                        <div class="place-meta">
+                            <span><i class="fas fa-clock"></i> Open 24 Hours</span>
+                            <span><i class="fas fa-rupee-sign"></i> Free Entry</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Ram Ghat, Ujjain')">
+                            <i class="fas fa-map-marker-alt"></i> Get Directions
+                        </button>
+                    </div>
+                </div>
+
+                <div class="place-detail-card">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/e1/62/22/entance-to-kal-bhairav.jpg?w=1200&h=-1&s=1" alt="Kal Bhairav Temple" loading="lazy">
+                    <div class="place-info">
+                        <h3>Kal Bhairav Temple</h3>
+                        <p>Ancient temple dedicated to Kal Bhairav, the guardian deity of Ujjain. Known for unique tradition of offering alcohol to the deity.</p>
+                        <div class="place-meta">
+                            <span><i class="fas fa-clock"></i> 6AM - 9PM</span>
+                            <span><i class="fas fa-rupee-sign"></i> Free Entry</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Kal Bhairav Temple, Ujjain')">
+                            <i class="fas fa-map-marker-alt"></i> Get Directions
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restaurants Section -->
+    <section class="restaurants-section">
+        <div class="container">
+            <h2>Popular Restaurants in Ujjain</h2>
+            <div class="restaurants-grid">
+                <div class="restaurant-card">
+                    <img src="https://content.jdmagicbox.com/v2/comp/ujjain/k2/9999px734.x734.200629001707.k7k2/catalogue/shree-ji-restaurant-jaisinghpura-ujjain-restaurants-jLT6FCEzre-250.jpg" alt="Shree Ji Restaurant" loading="lazy">
+                    <div class="restaurant-info">
+                        <h3>Shree Ji Restaurant</h3>
+                        <p>Popular vegetarian restaurant near Mahakaleshwar Temple serving authentic North Indian and Gujarati thali. Known for its hygienic food and quick service.</p>
+                        <div class="restaurant-meta">
+                            <span><i class="fas fa-clock"></i> 7AM - 11PM</span>
+                            <span><i class="fas fa-rupee-sign"></i> ₹300 for two</span>
+                        </div>
+                        <div class="cuisine-tags">
+                            <span class="tag">Vegetarian</span>
+                            <span class="tag">North Indian</span>
+                            <span class="tag">Thali</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Shree Ji Restaurant, Ujjain')">
+                            <i class="fas fa-map-marker-alt"></i> Directions
+                        </button>
+                    </div>
+                </div>
+
+                <div class="restaurant-card">
+                    <img src="https://files.yappe.in/place/full/apna-sweets-4220653.webp" alt="Apna Sweets" loading="lazy">
+                    <div class="restaurant-info">
+                        <h3>Apna Sweets</h3>
+                        <p>Famous sweet shop and restaurant offering delicious snacks, sweets, and chaat items. Must try: Kachori, Samosa, and local sweets.</p>
+                        <div class="restaurant-meta">
+                            <span><i class="fas fa-clock"></i> 8AM - 10PM</span>
+                            <span><i class="fas fa-rupee-sign"></i> ₹200 for two</span>
+                        </div>
+                        <div class="cuisine-tags">
+                            <span class="tag">Sweets</span>
+                            <span class="tag">Snacks</span>
+                            <span class="tag">Vegetarian</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Apna Sweets, Ujjain')">
+                            <i class="fas fa-map-marker-alt"></i> Directions
+                        </button>
+                    </div>
+                </div>
+
+                <div class="restaurant-card">
+                    <img src="https://content.jdmagicbox.com/v2/comp/ujjain/n3/9999px734.x734.230307034648.q7n3/catalogue/seth-murlidhar-mansinghka-yatri-niwas-ganesh-colony-ujjain-hotels-9pqdtjyuIx.jpg" alt="Hotel Yatrik" loading="lazy">
+                    <div class="restaurant-info">
+                        <h3>Hotel Yatrik</h3>
+                        <p>Comfortable restaurant with both vegetarian and non-vegetarian options. Known for its clean ambiance and variety of cuisines.</p>
+                        <div class="restaurant-meta">
+                            <span><i class="fas fa-clock"></i> 10AM - 11PM</span>
+                            <span><i class="fas fa-rupee-sign"></i> ₹400 for two</span>
+                        </div>
+                        <div class="cuisine-tags">
+                            <span class="tag">Multi-cuisine</span>
+                            <span class="tag">Veg & Non-veg</span>
+                            <span class="tag">Comfort Food</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Hotel Yatrik, Ujjain')">
+                            <i class="fas fa-map-marker-alt"></i> Directions
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Tips -->
+    <section class="tips-section">
+        <div class="container">
+            <h2>Travel Tips for Ujjain</h2>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <i class="fas fa-hands"></i>
+                    <h3>Temple Etiquette</h3>
+                    <p>Remove footwear before entering temples. Dress modestly and maintain silence in temple premises. Follow temple timings for darshan.</p>
+                </div>
+                <div class="tip-card">
+                    <i class="fas fa-water"></i>
+                    <h3>Holy Dip</h3>
+                    <p>Take a holy dip in Shipra River at Ram Ghat during auspicious occasions. Early morning is the best time for spiritual experience.</p>
+                </div>
+                <div class="tip-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Bhasma Aarti</h3>
+                    <p>Don't miss the famous Bhasma Aarti at Mahakaleshwar Temple. Reach early as it gets very crowded. Photography may be restricted.</p>
+                </div>
+                <div class="tip-card">
+                    <i class="fas fa-shopping-bag"></i>
+                    <h3>Shopping</h3>
+                    <p>Buy religious items, pooja samagri, and local handicrafts from markets near temples. Bargain politely at local shops.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Weather Info -->
+    <section class="weather-section">
+        <div class="container">
+            <h2>Weather Information</h2>
+            <div class="weather-cards">
+                <div class="weather-card">
+                    <i class="fas fa-sun"></i>
+                    <h3>Summer</h3>
+                    <p>Mar - Jun</p>
+                    <span>Hot & Dry (25°C - 42°C)</span>
+                </div>
+                <div class="weather-card">
+                    <i class="fas fa-cloud-rain"></i>
+                    <h3>Monsoon</h3>
+                    <p>Jul - Sep</p>
+                    <span>Moderate Rain (22°C - 35°C)</span>
+                </div>
+                <div class="weather-card">
+                    <i class="fas fa-snowflake"></i>
+                    <h3>Winter</h3>
+                    <p>Oct - Feb</p>
+                    <span>Pleasant & Cool (8°C - 25°C)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button id="topBtn" class="top-btn">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Travel Guide. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#" onclick="shareWebsite()"><i class="fas fa-share-alt"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        function openMap(placeName) {
+            const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(placeName)}`;
+            window.open(mapsUrl, '_blank');
+        }
+        
+        function shareWebsite() {
+            const websiteUrl = window.location.href;
+            if (navigator.share) {
+                navigator.share({
+                    title: 'Ujjain - Travel Guide',
+                    text: 'Explore spiritual places in Ujjain',
+                    url: websiteUrl
+                });
+            } else {
+                prompt('Share this page:', websiteUrl);
+            }
+        }
+    </script>
+</body>
+</html>

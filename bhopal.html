@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhopal - Travel Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <!-- Navigation -->
+            <nav class="navbar">
+                <div class="logo">
+                    <i class="fas fa-compass"></i>
+                    Travel Guide
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="nav-desktop">
+                    <div class="search-container">
+                        <input type="text" id="searchInput" placeholder="Search city..." autocomplete="off">
+                        <i class="fas fa-search search-icon"></i>
+                        <div id="searchResults" class="search-results"></div>
+                    </div>
+                    
+                    <ul class="nav-links">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="dropdown-container">
+                            <a href="#" class="nav-link">
+                                Places <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a href="indore.html">Indore</a>
+                                <a href="dewas.html">Dewas</a>
+                                <a href="ujjain.html">Ujjain</a>
+                                <a href="mumbai.html">Mumbai</a>
+                                <a href="delhi.html">Delhi</a>
+                                <a href="bhopal.html">Bhopal</a>
+                            </div>
+                        </li>
+                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                    </ul>
+                </div>
+
+                <!-- Right Side Items -->
+                <div class="nav-right">
+                    <!-- Theme Toggle -->
+                    <div class="theme-toggle">
+                        <button id="themeBtn" class="theme-btn">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- Mobile Menu Button -->
+                    <button class="mobile-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+
+            <!-- Mobile Navigation Menu -->
+            <div class="mobile-nav" id="mobileNav">
+                <div class="mobile-nav-header">
+                    <div class="logo">
+                        <i class="fas fa-compass"></i>
+                        Travel Guide
+                    </div>
+                    <button class="mobile-close-btn" id="mobileCloseBtn">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                
+                <div class="mobile-nav-links">
+                    <a href="index.html" class="mobile-nav-link">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                    
+                    <div class="mobile-dropdown">
+                        <a href="#" class="mobile-nav-link mobile-dropdown-btn">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Places
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="mobile-dropdown-menu">
+                            <a href="indore.html" class="mobile-dropdown-link">Indore</a>
+                            <a href="dewas.html" class="mobile-dropdown-link">Dewas</a>
+                            <a href="ujjain.html" class="mobile-dropdown-link">Ujjain</a>
+                            <a href="mumbai.html" class="mobile-dropdown-link">Mumbai</a>
+                            <a href="delhi.html" class="mobile-dropdown-link">Delhi</a>
+                            <a href="bhopal.html" class="mobile-dropdown-link">Bhopal</a>
+                        </div>
+                    </div>
+                    
+                    <a href="contact.html" class="mobile-nav-link">
+                        <i class="fas fa-envelope"></i>
+                        Contact
+                    </a>
+                    
+                    <a href="services.html" class="mobile-nav-link">
+                        <i class="fas fa-concierge-bell"></i>
+                        Services
+                    </a>
+                </div>
+            </div>
+
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>Welcome to Bhopal</h1>
+                    <p>City of Lakes & Cultural Heritage</p>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <!-- City Overview -->
+    <section class="city-overview">
+        <div class="container">
+            <div class="overview-content">
+                <div class="overview-text">
+                    <h2>About Bhopal</h2>
+                    <p>Bhopal, the capital city of Madhya Pradesh, is famously known as the City of Lakes for its various natural and artificial lakes. The city beautifully blends history, culture, and modernity with its Islamic and Hindu influences, historic monuments, and vibrant local markets.</p>
+                    
+                    <div class="city-stats">
+                        <div class="stat">
+                            <h3>Best Time to Visit</h3>
+                            <p>October to March</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Famous For</h3>
+                            <p>Lakes, History</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Language</h3>
+                            <p>Hindi, Urdu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="overview-image">
+                    <img src="https://i.pinimg.com/736x/ca/60/ca/ca60ca89811df10f0c2f24261162cfee.jpg" alt="Bhopal City" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Famous Places -->
+    <section class="places-section">
+        <div class="container">
+            <h2>Famous Places in Bhopal</h2>
+            <div class="places-grid">
+                <div class="place-detail-card">
+                    <img src="https://cdn.tripuntold.com/media/photos/location/2018/12/28/2eddf219-428b-4928-b222-7aaa745ed62f.jpg" alt="Upper Lake" loading="lazy">
+                    <div class="place-info">
+                        <h3>Upper Lake (Bhojtal)</h3>
+                        <p>One of Asia's largest artificial lakes, built in the 11th century. Perfect for boating, evening walks, and enjoying beautiful sunsets over the water.</p>
+                        <div class="place-meta">
+                            <span><i class="fas fa-clock"></i> 6AM - 8PM</span>
+                            <span><i class="fas fa-rupee-sign"></i> Boating ₹100-300</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Upper Lake, Bhopal')">
+                            <i class="fas fa-map-marker-alt"></i> Get Directions
+                        </button>
+                    </div>
+                </div>
+
+                <div class="place-detail-card">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/ab/92/65/on-this-occasion-of-bakridwe.jpg?w=900&h=500&s=1" alt="Taj-ul-Masajid" loading="lazy">
+                    <div class="place-info">
+                        <h3>Taj-ul-Masajid</h3>
+                        <p>One of the largest mosques in Asia, known for its magnificent pink facade, huge courtyard, and stunning architecture from the 19th century.</p>
+                        <div class="place-meta">
+                            <span><i class="fas fa-clock"></i> 6AM - 8PM</span>
+                            <span><i class="fas fa-rupee-sign"></i> Free Entry</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Taj-ul-Masajid, Bhopal')">
+                            <i class="fas fa-map-marker-alt"></i> Get Directions
+                        </button>
+                    </div>
+                </div>
+
+                <div class="place-detail-card">
+                    <img src="https://www.trawell.in/admin/images/upload/1505391000Bharat_Bhavan.jpg" alt="Bharat Bhavan" loading="lazy">
+                    <div class="place-info">
+                        <h3>Bharat Bhavan</h3>
+                        <p>Renowned multi-arts complex and museum showcasing contemporary and tribal art, theater performances, and cultural events by the lake.</p>
+                        <div class="place-meta">
+                            <span><i class="fas fa-clock"></i> 2PM - 8PM</span>
+                            <span><i class="fas fa-rupee-sign"></i> ₹30 Entry</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Bharat Bhavan, Bhopal')">
+                            <i class="fas fa-map-marker-alt"></i> Get Directions
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restaurants Section -->
+    <section class="restaurants-section">
+        <div class="container">
+            <h2>Popular Restaurants in Bhopal</h2>
+            <div class="restaurants-grid">
+                <div class="restaurant-card">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipMAs5vczxN0PAYAkqsUTtuEcgQSLo0tmz0ndlrw=w426-h240-k-no" alt="Manohar Dairy & Restaurant" loading="lazy">
+                    <div class="restaurant-info">
+                        <h3>Manohar Dairy & Restaurant</h3>
+                        <p>Famous for its vegetarian thali, sweets, and traditional North Indian cuisine. Known for quality food and hygienic preparation.</p>
+                        <div class="restaurant-meta">
+                            <span><i class="fas fa-clock"></i> 7AM - 11PM</span>
+                            <span><i class="fas fa-rupee-sign"></i> ₹400 for two</span>
+                        </div>
+                        <div class="cuisine-tags">
+                            <span class="tag">Vegetarian</span>
+                            <span class="tag">North Indian</span>
+                            <span class="tag">Sweets</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Manohar Dairy & Restaurant, Bhopal')">
+                            <i class="fas fa-map-marker-alt"></i> Directions
+                        </button>
+                    </div>
+                </div>
+
+                <div class="restaurant-card">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipP0Nroa7q1olnAvTIH_LRbA6fjYz6y_8uD9VuCy=w408-h306-k-no" alt="Under the Mango Tree" loading="lazy">
+                    <div class="restaurant-info">
+                        <h3>Under the Mango Tree</h3>
+                        <p>Beautiful restaurant in Jehan Numa Palace offering multi-cuisine dishes in a serene garden setting with excellent ambiance.</p>
+                        <div class="restaurant-meta">
+                            <span><i class="fas fa-clock"></i> 12PM - 11PM</span>
+                            <span><i class="fas fa-rupee-sign"></i> ₹1500 for two</span>
+                        </div>
+                        <div class="cuisine-tags">
+                            <span class="tag">Multi-cuisine</span>
+                            <span class="tag">Fine Dining</span>
+                            <span class="tag">Garden</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Under the Mango Tree, Bhopal')">
+                            <i class="fas fa-map-marker-alt"></i> Directions
+                        </button>
+                    </div>
+                </div>
+
+                <div class="restaurant-card">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipPKNEhK0jUEHUu9-cJXoMqZXjJAedil99G29Xoe=w408-h306-k-no" alt="Gazal Restaurant" loading="lazy">
+                    <div class="restaurant-info">
+                        <h3>Gazal Restaurant</h3>
+                        <p>Popular restaurant serving delicious North Indian and Chinese cuisine. Known for its kebabs and Mughlai dishes.</p>
+                        <div class="restaurant-meta">
+                            <span><i class="fas fa-clock"></i> 11AM - 11PM</span>
+                            <span><i class="fas fa-rupee-sign"></i> ₹600 for two</span>
+                        </div>
+                        <div class="cuisine-tags">
+                            <span class="tag">North Indian</span>
+                            <span class="tag">Chinese</span>
+                            <span class="tag">Mughlai</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Gazal Restaurant, Bhopal')">
+                            <i class="fas fa-map-marker-alt"></i> Directions
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Tips -->
+    <section class="tips-section">
+        <div class="container">
+            <h2>Travel Tips for Bhopal</h2>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <i class="fas fa-water"></i>
+                    <h3>Lake Activities</h3>
+                    <p>Enjoy boating in Upper Lake during early morning or evening. Carry sunscreen and hats for daytime lake visits.</p>
+                </div>
+                <div class="tip-card">
+                    <i class="fas fa-landmark"></i>
+                    <h3>Historical Sites</h3>
+                    <p>Visit museums and historical sites in the morning to avoid crowds. Wear comfortable shoes for exploring.</p>
+                </div>
+                <div class="tip-card">
+                    <i class="fas fa-shopping-bag"></i>
+                    <h3>Local Markets</h3>
+                    <p>Explore New Market for handicrafts and local products. Try Bhopali street food like poha and samosa.</p>
+                </div>
+                <div class="tip-card">
+                    <i class="fas fa-cloud-sun"></i>
+                    <h3>Weather</h3>
+                    <p>Winters are pleasant for sightseeing. Summers can be hot, so plan indoor activities during afternoons.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Weather Info -->
+    <section class="weather-section">
+        <div class="container">
+            <h2>Weather Information</h2>
+            <div class="weather-cards">
+                <div class="weather-card">
+                    <i class="fas fa-sun"></i>
+                    <h3>Winter</h3>
+                    <p>Oct - Feb</p>
+                    <span>Pleasant & Cool (10°C - 25°C)</span>
+                </div>
+                <div class="weather-card">
+                    <i class="fas fa-cloud-rain"></i>
+                    <h3>Monsoon</h3>
+                    <p>Jul - Sep</p>
+                    <span>Moderate Rain (20°C - 30°C)</span>
+                </div>
+                <div class="weather-card">
+                    <i class="fas fa-temperature-high"></i>
+                    <h3>Summer</h3>
+                    <p>Mar - Jun</p>
+                    <span>Hot & Dry (25°C - 40°C)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button id="topBtn" class="top-btn">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Travel Guide. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#" onclick="shareWebsite()"><i class="fas fa-share-alt"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        function openMap(placeName) {
+            const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(placeName)}`;
+            window.open(mapsUrl, '_blank');
+        }
+        
+        function shareWebsite() {
+            const websiteUrl = window.location.href;
+            if (navigator.share) {
+                navigator.share({
+                    title: 'Bhopal - Travel Guide',
+                    text: 'Explore the beautiful lakes and culture of Bhopal',
+                    url: websiteUrl
+                });
+            } else {
+                prompt('Share this page:', websiteUrl);
+            }
+        }
+    </script>
+</body>
+</html>

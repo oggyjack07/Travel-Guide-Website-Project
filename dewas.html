@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dewas - Travel Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <!-- Navigation -->
+            <nav class="navbar">
+                <div class="logo">
+                    <i class="fas fa-compass"></i>
+                    Travel Guide
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="nav-desktop">
+                    <div class="search-container">
+                        <input type="text" id="searchInput" placeholder="Search city..." autocomplete="off">
+                        <i class="fas fa-search search-icon"></i>
+                        <div id="searchResults" class="search-results"></div>
+                    </div>
+                    
+                    <ul class="nav-links">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="dropdown-container">
+                            <a href="#" class="nav-link">
+                                Places <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a href="indore.html">Indore</a>
+                                <a href="dewas.html">Dewas</a>
+                                <a href="ujjain.html">Ujjain</a>
+                                <a href="mumbai.html">Mumbai</a>
+                                <a href="delhi.html">Delhi</a>
+                                <a href="bhopal.html">Bhopal</a>
+                            </div>
+                        </li>
+                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                    </ul>
+                </div>
+
+                <!-- Right Side Items -->
+                <div class="nav-right">
+                    <!-- Theme Toggle -->
+                    <div class="theme-toggle">
+                        <button id="themeBtn" class="theme-btn">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- Mobile Menu Button -->
+                    <button class="mobile-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+
+            <!-- Mobile Navigation Menu -->
+            <div class="mobile-nav" id="mobileNav">
+                <div class="mobile-nav-header">
+                    <div class="logo">
+                        <i class="fas fa-compass"></i>
+                        Travel Guide
+                    </div>
+                    <button class="mobile-close-btn" id="mobileCloseBtn">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                
+                <div class="mobile-nav-links">
+                    <a href="index.html" class="mobile-nav-link">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                    
+                    <div class="mobile-dropdown">
+                        <a href="#" class="mobile-nav-link mobile-dropdown-btn">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Places
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="mobile-dropdown-menu">
+                            <a href="indore.html" class="mobile-dropdown-link">Indore</a>
+                            <a href="dewas.html" class="mobile-dropdown-link">Dewas</a>
+                            <a href="ujjain.html" class="mobile-dropdown-link">Ujjain</a>
+                            <a href="mumbai.html" class="mobile-dropdown-link">Mumbai</a>
+                            <a href="delhi.html" class="mobile-dropdown-link">Delhi</a>
+                            <a href="bhopal.html" class="mobile-dropdown-link">Bhopal</a>
+                        </div>
+                    </div>
+                    
+                    <a href="contact.html" class="mobile-nav-link">
+                        <i class="fas fa-envelope"></i>
+                        Contact
+                    </a>
+                    
+                    <a href="services.html" class="mobile-nav-link">
+                        <i class="fas fa-concierge-bell"></i>
+                        Services
+                    </a>
+                </div>
+            </div>
+
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>Welcome to Dewas</h1>
+                    <p>City of Hills & Spiritual Serenity</p>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <!-- City Overview -->
+    <section class="city-overview">
+        <div class="container">
+            <div class="overview-content">
+                <div class="overview-text">
+                    <h2>About Dewas</h2>
+                    <p>Dewas is a peaceful city known for its scenic hills and spiritual significance. Famous for the Tekri Mata Temple situated atop a hill, it offers breathtaking panoramic views of the city. The city has a rich historical background and is known for its industrial growth while maintaining its natural beauty and cultural heritage.</p>
+                    
+                    <div class="city-stats">
+                        <div class="stat">
+                            <h3>Best Time to Visit</h3>
+                            <p>October to March</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Famous For</h3>
+                            <p>Hill Temples, Nature</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Language</h3>
+                            <p>Hindi, Malwi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="overview-image">
+                    <img src="https://d34vm3j4h7f97z.cloudfront.net/optimized/4X/f/0/0/f0024da20a7fbff030b2ec166e82bf59517ba441_2_631x500.jpeg" alt="Dewas City" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Famous Places -->
+    <section class="places-section">
+        <div class="container">
+            <h2>Famous Places in Dewas</h2>
+            <div class="places-grid">
+                <div class="place-detail-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToIgSehbOzZ6_TUcOw6FVwLNoj1QfMSLvahg&s" alt="Tekri Mata Temple" loading="lazy">
+                    <div class="place-info">
+                        <h3>Tekri Mata Temple</h3>
+                        <p>Famous hilltop temple dedicated to Goddess Durga, offering spectacular views of Dewas city. The temple is accessible by stairs and ropeway.</p>
+                        <div class="place-meta">
+                            <span><i class="fas fa-clock"></i> 6AM - 8PM</span>
+                            <span><i class="fas fa-rupee-sign"></i> Free Entry</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Tekri Mata Temple, Dewas')">
+                            <i class="fas fa-map-marker-alt"></i> Get Directions
+                        </button>
+                    </div>
+                </div>
+
+                <div class="place-detail-card">
+                    <img src="https://files.yappe.in/place/full/meetha-talab-2073930.webp" alt="Chamunda Temple" loading="lazy">
+                    <div class="place-info">
+                        <h3>Meetha Talab</h3>
+                        <p>Meetha Talab in Dewas is a peaceful and popular lake for family visits. Surrounded by nature, it offers morning walks, boating, and relaxing evenings with lights and soft music.</p>
+                        <div class="place-meta">
+                            <span><i class="fas fa-clock"></i> 7AM - 7PM</span>
+                            <span><i class="fas fa-rupee-sign"></i> Free Entry</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Chamunda Temple, Dewas')">
+                            <i class="fas fa-map-marker-alt"></i> Get Directions
+                        </button>
+                    </div>
+                </div>
+
+                <div class="place-detail-card">
+                    <img src="https://live.staticflickr.com/1518/24290365613_b1bd9a2f98_z.jpg" alt="Kailadevi Temple" loading="lazy">
+                    <div class="place-info">
+                        <h3>Kailadevi Temple</h3>
+                        <p>Beautiful temple complex with intricate architecture, dedicated to Goddess Kailadevi. Popular among locals and tourists for peace and devotion.</p>
+                        <div class="place-meta">
+                            <span><i class="fas fa-clock"></i> 6AM - 9PM</span>
+                            <span><i class="fas fa-rupee-sign"></i> Free Entry</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Kailadevi Temple, Dewas')">
+                            <i class="fas fa-map-marker-alt"></i> Get Directions
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restaurants Section -->
+    <section class="restaurants-section">
+        <div class="container">
+            <h2>Popular Restaurants in Dewas</h2>
+            <div class="restaurants-grid">
+                <div class="restaurant-card">
+                    <img src="https://b.zmtcdn.com/data/pictures/1/20561731/9e7e2758d84a0b1d7e3c6c5a8f44c7c9.jpg" alt="Hotel Surya" loading="lazy">
+                    <div class="restaurant-info">
+                        <h3>Hotel Surya</h3>
+                        <p>Popular multi-cuisine restaurant serving North Indian, Chinese, and local Malwi dishes. Known for its comfortable ambiance and quality food.</p>
+                        <div class="restaurant-meta">
+                            <span><i class="fas fa-clock"></i> 7AM - 11PM</span>
+                            <span><i class="fas fa-rupee-sign"></i> ₹350 for two</span>
+                        </div>
+                        <div class="cuisine-tags">
+                            <span class="tag">Multi-cuisine</span>
+                            <span class="tag">Veg & Non-veg</span>
+                            <span class="tag">Comfort Food</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Hotel Surya, Dewas')">
+                            <i class="fas fa-map-marker-alt"></i> Directions
+                        </button>
+                    </div>
+                </div>
+
+                <div class="restaurant-card">
+                    <img src="https://b.zmtcdn.com/data/pictures/2/20561732/1e5f43d6d4a8b0e1d7e3c6c5a8f44c7c9.jpg" alt="Baba Restaurant" loading="lazy">
+                    <div class="restaurant-info">
+                        <h3>Baba Restaurant</h3>
+                        <p>Famous for authentic North Indian thali and local Malwi cuisine. Known for its homely food and reasonable prices.</p>
+                        <div class="restaurant-meta">
+                            <span><i class="fas fa-clock"></i> 8AM - 10:30PM</span>
+                            <span><i class="fas fa-rupee-sign"></i> ₹250 for two</span>
+                        </div>
+                        <div class="cuisine-tags">
+                            <span class="tag">North Indian</span>
+                            <span class="tag">Vegetarian</span>
+                            <span class="tag">Thali</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Baba Restaurant, Dewas')">
+                            <i class="fas fa-map-marker-alt"></i> Directions
+                        </button>
+                    </div>
+                </div>
+
+                <div class="restaurant-card">
+                    <img src="https://b.zmtcdn.com/data/pictures/3/20561733/3c0e3a5a4e6a8c9e8e9a7b6c5d4e3f2a.jpg" alt="Milan Restaurant" loading="lazy">
+                    <div class="restaurant-info">
+                        <h3>Milan Restaurant</h3>
+                        <p>Cozy restaurant offering Chinese and fast food options. Popular among youngsters and families for quick meals and snacks.</p>
+                        <div class="restaurant-meta">
+                            <span><i class="fas fa-clock"></i> 10AM - 11PM</span>
+                            <span><i class="fas fa-rupee-sign"></i> ₹300 for two</span>
+                        </div>
+                        <div class="cuisine-tags">
+                            <span class="tag">Chinese</span>
+                            <span class="tag">Fast Food</span>
+                            <span class="tag">Snacks</span>
+                        </div>
+                        <button class="location-btn" onclick="openMap('Milan Restaurant, Dewas')">
+                            <i class="fas fa-map-marker-alt"></i> Directions
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Tips -->
+    <section class="tips-section">
+        <div class="container">
+            <h2>Travel Tips for Dewas</h2>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <i class="fas fa-hiking"></i>
+                    <h3>Hill Climbing</h3>
+                    <p>Wear comfortable shoes for climbing Tekri hill. Early morning or evening is best to avoid heat. Carry water during the climb.</p>
+                </div>
+                <div class="tip-card">
+                    <i class="fas fa-camera"></i>
+                    <h3>Photography</h3>
+                    <p>Tekri hill offers amazing panoramic views of Dewas. Best photography time is during sunrise and sunset for stunning shots.</p>
+                </div>
+                <div class="tip-card">
+                    <i class="fas fa-umbrella"></i>
+                    <h3>Weather Preparedness</h3>
+                    <p>Carry umbrella during monsoon. Winters can be chilly, especially in early mornings and evenings on the hill.</p>
+                </div>
+                <div class="tip-card">
+                    <i class="fas fa-shopping-bag"></i>
+                    <h3>Local Shopping</h3>
+                    <p>Buy local handicrafts and pooja items from shops near temples. Try local snacks from street vendors.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Weather Info -->
+    <section class="weather-section">
+        <div class="container">
+            <h2>Weather Information</h2>
+            <div class="weather-cards">
+                <div class="weather-card">
+                    <i class="fas fa-sun"></i>
+                    <h3>Summer</h3>
+                    <p>Mar - Jun</p>
+                    <span>Warm & Dry (22°C - 38°C)</span>
+                </div>
+                <div class="weather-card">
+                    <i class="fas fa-cloud-rain"></i>
+                    <h3>Monsoon</h3>
+                    <p>Jul - Sep</p>
+                    <span>Moderate Rain (20°C - 32°C)</span>
+                </div>
+                <div class="weather-card">
+                    <i class="fas fa-snowflake"></i>
+                    <h3>Winter</h3>
+                    <p>Oct - Feb</p>
+                    <span>Cool & Pleasant (8°C - 25°C)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button id="topBtn" class="top-btn">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Travel Guide. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#" onclick="shareWebsite()"><i class="fas fa-share-alt"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        function openMap(placeName) {
+            const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(placeName)}`;
+            window.open(mapsUrl, '_blank');
+        }
+        
+        function shareWebsite() {
+            const websiteUrl = window.location.href;
+            if (navigator.share) {
+                navigator.share({
+                    title: 'Dewas - Travel Guide',
+                    text: 'Explore scenic hills and temples in Dewas',
+                    url: websiteUrl
+                });
+            } else {
+                prompt('Share this page:', websiteUrl);
+            }
+        }
+    </script>
+</body>
+</html>
